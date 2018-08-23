@@ -1,4 +1,26 @@
-header{
-    color: red;
-    background-color: blue;
+body {
+    background-color: firebrick;
+    color: antiquewhite;
+}
+header {
+    background-color: rgb(106, 4, 0);
+    background-color: rgba(106, 57, 57, 0.2)
+}
+section {
+    background-color: dodgerblue
+}
+section header {
+    color: whitesmoke;
+}
+footer {
+    background-color: peru
+}
+h3 {
+    color: #6A0400;
+}
+nav {
+    background-color:#FFD987;
+}
+aside {
+    background-color: darkgoldenrod
 }
