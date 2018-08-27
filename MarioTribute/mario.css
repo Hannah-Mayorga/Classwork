@@ -4,13 +4,17 @@ body {
 }
 header {
     background-color: rgb(106, 4, 0);
-    background-color: rgba(106, 57, 57, 0.2)
+    background-color: rgba(106, 57, 57, 0.2);
+    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
+    background-size: contain;
+
 }
 section {
     background-color: dodgerblue
 }
 section header {
-    color: whitesmoke;
+    color: black;
+    background-color: dodgerblue;
 }
 footer {
     background-color: peru
@@ -22,5 +26,10 @@ nav {
     background-color:#FFD987;
 }
 aside {
-    background-color: darkgoldenrod
+    color: black;
+    background-color: darkgoldenrod;
+    background-image: url("https://jlaw21.github.io/Resources/mario.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
