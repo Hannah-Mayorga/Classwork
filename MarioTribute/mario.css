@@ -1,16 +1,19 @@
 body {
     background-color: firebrick;
-    color: antiquewhite;
+    color: rgb(240,230,140);
+    font-size: 100%;
+    font-family: 'VT323', monospace;
 }
 header {
-    background-color: rgb(106, 4, 0);
-    background-color: rgba(106, 57, 57, 0.2);
+    background-image: url(sky.jpg);
     background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
     background-size: contain;
+    font-family: 'Press Start 2P', cursive;
+    font-variant: small-caps;
 
 }
 section {
-    background-color: dodgerblue
+    background-color: dodgerblue;
 }
 section header {
     color: black;
@@ -21,9 +24,14 @@ footer {
 }
 h3 {
     color: #6A0400;
+    font-size: 1.4em;
+    font-style: oblique;
 }
 nav {
     background-color:#FFD987;
+    border: 10px solid transparent;
+    border-image: url("https://jlaw21.github.io/Resources/mario-bricks.PNG") 30% round;
+    
 }
 aside {
     color: black;
@@ -32,4 +40,9 @@ aside {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
+    font-size: 1.5em;
+}
+p {
+    font-variant: small-caps;
+    font-size: 20px;
 }
