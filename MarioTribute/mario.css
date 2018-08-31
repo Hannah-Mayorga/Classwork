@@ -3,46 +3,113 @@ body {
     color: rgb(240,230,140);
     font-size: 100%;
     font-family: 'VT323', monospace;
+    background-image: url("https://jlaw21.github.io/Resources/mario.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
 }
+/* Top of Page */
+.intro {
+    background-image: url(mario-castle.png);
+    background-size: cover;
+    color: red;
+    padding: 20px 20px 20px 20px;
+    text-shadow: 0px 1px 10px white;
+}
+/* General HTML Elements */
 header {
-    background-image: url(sky.jpg);
-    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
+    background-image: url(mario-coin.png);
     background-size: contain;
     font-family: 'Press Start 2P', cursive;
     font-variant: small-caps;
-
-}
-section {
-    background-color: dodgerblue;
-}
-section header {
-    color: black;
-    background-color: dodgerblue;
-}
-footer {
-    background-color: peru
+    text-shadow: 8px 8px 3px #000000;
+    word-spacing: 1.3em;  
 }
 h3 {
     color: #6A0400;
     font-size: 1.4em;
     font-style: oblique;
 }
+p {
+    font-variant: small-caps;
+}
+a {
+    text-decoration: none;
+}
+/* Nav */
 nav {
-    background-color:#FFD987;
+    background-color: lightgreen;
+    color: black;
     border: 10px solid transparent;
-    border-image: url("https://jlaw21.github.io/Resources/mario-bricks.PNG") 30% round;
-    
+    border-image: url("mario-bricks.png") 30% round;
+    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
+    background-size: contain;
+    font-size: 30px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:visited {
+    color: black;
+}
+/* Sections & Articles */
+section {
+    background-image: url(mario-background.png);
+}
+section header {
+    color: black;
+    text-shadow: 0px 1px 5px firebrick;
+    text-align: center;
+    background-color: dodgerblue;   
+    line-height: 2em;
+}
+  section header h2 {
+    border: 10px solid transparent;
+    border-image: url(mario-bricks.png) 30% round;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.7);
+} 
+article {
+    text-align: center;
+    font-size: 25px;
+}
+/* Aside */
+aside h2 {
+    color: black;
+    text-shadow: 0px 1px 5px firebrick;
+    text-align: center;
+    border: 10px solid transparent;
+    border-image: url(mario-bricks.png) 30% round;
+    background-color: goldenrod;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 aside {
     color: black;
     background-color: darkgoldenrod;
-    background-image: url("https://jlaw21.github.io/Resources/mario.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("mario-items.gif");
+    background-size: cover;
     background-position: center center;
+}
+aside header {
+    line-height: 2em;
+}
+aside ul li {
     font-size: 1.5em;
 }
-p {
-    font-variant: small-caps;
-    font-size: 20px;
+/* Footer */
+footer {
+    background-color: peru;
+    border: 5px solid saddlebrown;
+    border-radius: 30px;
 }
