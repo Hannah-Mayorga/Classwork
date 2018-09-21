@@ -6,11 +6,11 @@ body {
     background-image: url("https://jlaw21.github.io/Resources/mario.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center center;   
+    background-attachment: fixed;                                                                                                                                                                                                                                                                                      
 }
 /* Top of Page */
-.intro {
+#top {
     background-image: url(mario-castle.png);
     background-size: cover;
     color: red;
@@ -26,6 +26,9 @@ header {
     text-shadow: 8px 8px 3px #000000;
     word-spacing: 1.3em;  
 }
+header:hover {
+    font-variant: normal;
+}
 h3 {
     color: #6A0400;
     font-size: 1.4em;
@@ -34,8 +37,15 @@ h3 {
 p {
     font-variant: small-caps;
 }
+p:hover::before , p:hover::after {
+    content: " It's a me, Mario! ";
+    color: firebrick;
+}
 a {
     text-decoration: none;
+}
+section, article {
+    text-align: center;
 }
 /* Nav */
 nav {
@@ -54,13 +64,18 @@ nav ul {
     overflow: hidden;
 }
 nav li a {
+    color: antiquewhite;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 nav li a:visited {
-    color: black;
+    color: firebrick;
+}
+nav li a:hover {
+    text-shadow: 8px 8px 3px white;
+    color: red;
 }
 /* Sections & Articles */
 section {
@@ -69,7 +84,6 @@ section {
 section header {
     color: black;
     text-shadow: 0px 1px 5px firebrick;
-    text-align: center;
     background-color: dodgerblue;   
     line-height: 2em;
 }
@@ -80,10 +94,16 @@ section header {
     background-color: rgba(255, 255, 255, 0.7);
 } 
 article {
-    text-align: center;
     font-size: 25px;
 }
 /* Aside */
+.console {
+    font-size: 1.5em;
+    color: blue;
+}
+.games {
+    color: firebrick;
+}
 aside h2 {
     color: black;
     text-shadow: 0px 1px 5px firebrick;
@@ -112,4 +132,5 @@ footer {
     background-color: peru;
     border: 5px solid saddlebrown;
     border-radius: 30px;
+    font-size: 1.5em;
 }
